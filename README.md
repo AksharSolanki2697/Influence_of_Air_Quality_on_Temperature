@@ -1,4 +1,4 @@
-# Influence-of-Air-Quality-on-Temperature
+# Influence of Air Quality on Temperature
 ## Motivation 
 Air pollution refers to the release of pollutants into the air that are
 detrimental to human health and the planet as a whole. It has been proven through
