@@ -41,6 +41,7 @@ Size of the Dataset:
 1. Number of attributes (columns) = 18
 2. Number of data samples (rows) / region = 35064
 3. Number of Regions: 12
+
 Total Instances = 18 * 35064 * 12 = 7,573,824
 
 ## Data Preprocessing
