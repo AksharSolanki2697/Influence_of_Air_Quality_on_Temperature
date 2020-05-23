@@ -116,7 +116,35 @@ of feature creation.
 
 Model | R^2 Score for Feature1 | R^2 Score for Feature2 | R^2 Score for Feature3
 ----- | ---------------------- | ---------------------- | ---------------------- |
-DecisionTree Regression | 0.7226228398476233 | 0.7255236235567473 | 0.7254002902689967
+DecisionTree Regression | 0.7226228398476233 |  0.7255236235567473 | 0.7254002902689967
 Ridge Regression | 0.668813412604142 | 0.7502428511220475 | 0.7507785142635952
 Lasso Regression | 0.6632206984150215 | 0.7437820410345286 | 0.7502508124379266
 ElastiNet Regression | 0.6660343309393048 | 0.7439282443449935 | 0.7504926807317898
+
+
+## Model Developments
+
+Implemented Forward Selection in order to find the best features that will affect the data. Forward Selection creates subsets of features and analyzes the p-value using Ordinary Least Squares (OLS). The subsets with the least p-value is returned so that the null hypothesis can be rejected. We have taken the significance level of 0.05 in order to find the best features. New and Better metrics are added in order to better judge the accuracy of the model. I have now used Adjusted R^2 Score and Root Mean Square Errors in order to check accuracy. 
+
+Feature4 : Subset of features using the forward selection process.
+
+## Improved Metrics
+
+The adjusted R^2 Scores are given as follows : 
+
+Model |  Feature1 | Feature2 | Feature3 | Feature4 |
+----- | --------- | -------- | -------- | -------- |
+DecisionTree Regression | 0.879538494287553 | 0.8913031594127511 | 0.89140757037877 | 0.9402877847767049
+Ridge Regression | 0.8137434453557858 | 0.8735883276391865 | 0.8750388994747597 | 0.8770426426073291
+Lasso Regression | 0.8055511479394123 | 0.859027304957493 | 0.865082480882465 | 0.8654624663045336
+ElastiNet Regression | 0.8035753381142305 | 0.8625659319767346 | 0.8691665710183645 | 0.8696925090106291
+
+
+The Root Mean Squared Errors are given as follows :
+
+Model |  Feature1 | Feature2 | Feature3 | Feature4 |
+----- | --------- | -------- | -------- | -------- |
+DecisionTree Regression | 3.9734723263825984  | 3.774423598313993  | 3.7726103630097145 | 2.797486270628397 
+Ridge Regression | 4.94085184650141  | 4.07038760171802 | 4.046966403410801  | 4.014335191025011
+Lasso Regression | 5.048341677920922 | 4.298428227724754 | 4.20510022907211 | 4.199118234990604
+ElastiNet Regression | 5.073925148394636 | 4.244136851593279 | 4.140964813939791 | 4.132578040373532
