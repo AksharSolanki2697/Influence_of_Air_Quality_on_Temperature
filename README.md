@@ -27,15 +27,15 @@ The data attributes are as follows :
 7. PM10 - concentration of PM10 (μg/m3)
 8. SO2 - concentration of SO2 (μg/m3)
 9. NO2 - concentration NO2 (μg/m3)
-10.CO - concentration of CO (μg/m3)
-11.O3 - concentration of O3 (μg/m3)
-12.TEMP - temperature (degree Celsius)
-13.PRES - pressure (hPa)
-14.DEWP - dew point temperature (degree Celsius)
-15.RAIN - precipitation (mm)
-16.Wd - wind direction
-17.WSPM - wind speed (m/s)
-18.Station - name of the city/air-quality monitoring site
+10. CO - concentration of CO (μg/m3)
+11. O3 - concentration of O3 (μg/m3)
+12. TEMP - temperature (degree Celsius)
+13. PRES - pressure (hPa)
+14. DEWP - dew point temperature (degree Celsius)
+15. RAIN - precipitation (mm)
+16. Wd - wind direction
+17. WSPM - wind speed (m/s)
+18. Station - name of the city/air-quality monitoring site
 
 Size of the Dataset:
 1. Number of attributes (columns) = 18
